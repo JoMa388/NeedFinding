@@ -70,4 +70,5 @@ To conduct needfinding:
    conducted contextual inquiry (be very specific – where, when, with whom, what
    happened, how), a summary of your findings, and a plan for your website based on
    contextual inquiry.
-# NeedFinding
+
+# https://docs.google.com/document/d/1ta5SuTkbTpD0LzA33W6zBxrxrOWdHAoH-ptzn2KCoK4/edit?usp=sharing
