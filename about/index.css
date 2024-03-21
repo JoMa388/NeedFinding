@@ -16,6 +16,14 @@ a:hover {
     text-indent: 3%;
 }
 
+#navbarLogo {
+    vertical-align: middle;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    //padding-bottom: 2rem;
+}
+
 h2 {
     padding-top: 2rem;
     padding-bottom: 1rem;

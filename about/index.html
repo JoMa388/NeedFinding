@@ -55,8 +55,12 @@
       <div class="container-fluid">
 
           <a class="navbar-brand text-light" href="../index.html"> <!--Got one folder up just like Linux CLI command [cd ..] -->
-              <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-              <span class="fs-1 fw-bold">Brooklyn College</span>
+              <!--file names with spaces may cause issues-->
+              <img src="../bc-logo.png" alt="Brooklyn College Logo" id="navbarLogo" class="d-inline-block align-text-top"> 
+          </a>
+
+          <a class="navbar-brand text-light" href="../index.html">
+            <span class="fs-1 fw-bold">Brooklyn College</span>
           </a>
           
           <button class="navbar-toggler" type="button" 
@@ -102,13 +106,13 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="./media/BC-cafe.png" class="d-block w-100" alt="Carousel image of Brooklyn College Dining Hall/Cafeteria.">
+                  <img src="./media/BC-cafe.png" class="d-block w-100" alt="Carousel image of Brooklyn College Dining Hall/Cafeteria." />
                 </div>
                 <div class="carousel-item">
                   <img src="./media/kinky-tacos.png" class="d-block w-100" alt="Carousel image of Kinky Tacos food truck partnered with Brooklyn College.">
                 </div>
                 <div class="carousel-item">
-                  <img src="./media/waffles.png" class="d-block w-100" alt="Carousel image of Waffles food truck partnered with Brooklyn College.">
+                  <img src="./media/waffles.png" class="d-block w-100" alt="Carousel image of Waffles food truck partnered with Brooklyn College." />
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -135,7 +139,7 @@
 
                   <div class="card">
                     <div class="card-body">
-                      <!--Insert Image if needed-->
+                      <img src="./media/moshefalafel.png" class="card-img-top" alt="Moshe's Falafel Logo" />
                       <h5 class="card-title">Moshe's Falafel</h5>
                       <a href="https://moshesfalafel.net/" class="btn btn-primary">Go to their website</a>
                     </div>
@@ -147,6 +151,7 @@
 
                   <div class="card">
                     <div class="card-body">
+                      <img src="./media/labraza.png" class="card-img-top" alt="La Braza's Logo" />
                       <h5 class="card-title">La Braza</h5>
                       <a href="https://www.facebook.com/LabrazaNY/" class="btn btn-primary">Go their Facebook page</a>
                     </div>
@@ -158,6 +163,7 @@
 
                   <div class="card">
                     <div class="card-body">
+                      <img src="./media/jiannettospizza.png" class="card-img-top" alt="Jiannettospizza's Logo" />
                       <h5 class="card-title">Jiannettospizza</h5>
                       <a href="https://www.jiannettospizza.com/index.php" class="btn btn-primary">Go their website</a>
                     </div>
@@ -169,6 +175,7 @@
 
                   <div class="card">
                     <div class="card-body">
+                      <img src="./media/wafels.png" class="card-img-top" alt="Wafels's Logo" />
                       <h5 class="card-title">Wafels</h5>
                       <a href="hhttps://wafels.com/" class="btn btn-primary">Go their website</a>
                     </div>
@@ -180,6 +187,7 @@
 
                   <div class="card">
                     <div class="card-body">
+                      <img src="./media/kinkytacos.png" class="card-img-top" alt="Kinky Tacos' Logo" />
                       <h5 class="card-title">Kinky Tacos</h5>
                       <a href="https://kinkytacotruck.com/" class="btn btn-primary">Go their website</a>
                     </div>
@@ -191,6 +199,7 @@
 
                   <div class="card">
                     <div class="card-body">
+                      <!--<img src="" class="card-img-top" alt="tacoselgueronyc's Logo">-->
                       <h5 class="card-title">tacoselgueronyc</h5>
                       <a href="https://www.instagram.com/tacoselgueronyc/?hl=en" class="btn btn-primary">Go their Instagram page</a>
                     </div>
@@ -214,23 +223,38 @@
               <div class="row">
 
                 <div class="col">
-                  <a href="#">Jessica Jiang</a>
+                  <a href="https://github.com/jjessica415">
+                    <img src="https://avatars.githubusercontent.com/u/111005055?v=4" alt="Jessica Jiang's GitHub Profile" />
+                    <p>Jessica Jiang</p>
+                  </a>
                 </div>
 
                 <div class="col">
-                  <a href="https://github.com/JoMa388">Jonathan Ma</a>
+                  <a href="https://github.com/JoMa388">
+                    <img src="https://avatars.githubusercontent.com/u/98840532?v=4" alt="Jonathan Ma's GitHub Profile" />
+                    <p>Jonathan Ma</p>
+                  </a>
                 </div>
 
                 <div class="col">
-                  <a href="https://github.com/VincentChen06">Vincent Chen</a>
+                  <a href="https://github.com/VincentChen06">
+                    <img src="https://avatars.githubusercontent.com/u/161735957?v=4" alt="Vincent Chen's GitHub Profile" />
+                    <p>Vincent Chen</p>
+                  </a>
                 </div>
 
                 <div class="col">
-                  <a href="https://github.com/LostSphere">Wei Cheng Zhu</a>
+                  <a href="https://github.com/LostSphere">
+                    <img src="https://avatars.githubusercontent.com/u/159456360?v=4" alt="Wei Cheng Zhu's GitHub Profile" />
+                    <p>Wei Cheng Zhu</p>
+                  </a>
                 </div>
 
                 <div class="col">
-                  <a href="https://github.com/WeiJian123-tech">Wei Jian Zhen</a>
+                  <a href="https://github.com/WeiJian123-tech">
+                    <img src="https://avatars.githubusercontent.com/u/55195954?v=4" alt="Wei Jian Zhen's GitHub Profile" />
+                    <p>Wei Jian Zhen</p>
+                  </a>
                 </div>
 
               </div>
@@ -252,5 +276,5 @@
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  </body>BC Dinning
+  </body>
 </html>
